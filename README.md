@@ -22,14 +22,14 @@ By Christopher W. Johnson
 
 * Design
 
-    * [Composability](contents/composability.md)
-        * [Separation of Concerns](contents/composability.md#separation-of-concerns)
-        * [Hubs](contents/composability.md#hubs)
-        * [Dependencies are Expensive](contents/composability.md#dependencies-are-expensive)
-        * [Driving Dependencies](contents/composability.md#driving-dependencies)
-        * [Plugins](contents/composability.md#plugins)
-        * [Modal Parameters](contents/composability.md#modal-parameters)
-        * [The Override Pattern](contents/composability.md#the-override-pattern)
+    * [Composability](content/composability.md)
+        * [Separation of Concerns](contens/composability.md#separation-of-concerns)
+        * [Hubs](content/composability.md#hubs)
+        * [Dependencies are Expensive](content/composability.md#dependencies-are-expensive)
+        * [Driving Dependencies](content/composability.md#driving-dependencies)
+        * [Plugins](content/composability.md#plugins)
+        * [Modal Parameters](content/composability.md#modal-parameters)
+        * [The Override Pattern](content/composability.md#the-override-pattern)
 
     * Productivity
         * Convenience vs. Productivity
