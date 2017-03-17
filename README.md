@@ -22,15 +22,14 @@ By Christopher W. Johnson
 
 * Design
 
-    * Composability
-        * Complex Is a Bunch of Simple
-        * Separation of Concerns
-        * Monoliths
-        * Dependencies are Expensive
-        * Minimizing Hubs
-        * Driving Dependencies
-        * The Problem with Plugins
-        * Configuration is Brittle
+    * [Composability](contents/composability.md)
+        * [Separation of Concerns](contents/composability.md#separation-of-concerns)
+        * [Hubs](contents/composability.md#hubs)
+        * [Dependencies are Expensive](contents/composability.md#dependencies-are-expensive)
+        * [Driving Dependencies](contents/composability.md#driving-dependencies)
+        * [Plugins](contents/composability.md#plugins)
+        * [Modal Parameters](contents/composability.md#modal-parameters)
+        * [The Override Pattern](contents/composability.md#the-override-pattern)
 
     * Productivity
         * Convenience vs. Productivity
@@ -42,6 +41,9 @@ By Christopher W. Johnson
 
     * Abstracting Patterns
         * Infinite Dimensions of Patterns
+        * Inheritance
+        * Interfaces
+        * Encapsulation
         * MVC vs. Components
         * State and Immutability
         * Imperative vs. Declarative
