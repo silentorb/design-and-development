@@ -22,14 +22,15 @@ By Christopher W. Johnson
 
 * Design
 
-    * [Composability](content/composability.md)
-        * [Separation of Concerns](contens/composability.md#separation-of-concerns)
-        * [Hubs](content/composability.md#hubs)
-        * [Dependencies are Expensive](content/composability.md#dependencies-are-expensive)
-        * [Driving Dependencies](content/composability.md#driving-dependencies)
-        * [Plugins](content/composability.md#plugins)
-        * [Modal Parameters](content/composability.md#modal-parameters)
-        * [The Override Pattern](content/composability.md#the-override-pattern)
+    * [Composability](content/design/composability.md)
+        * [Separation of Concerns](content/design/composability.md#separation-of-concerns)
+        * [Dependencies are Expensive](content/design/composability.md#dependencies-are-expensive)
+        * [Monoliths](content/design/composability.md#monoliths)
+        * [Hubs](content/design/composability.md#hubs)
+        * [Driving Dependencies](content/design/composability.md#driving-dependencies)
+        * [Plugins](content/design/composability.md#plugins)
+        * [Modal Parameters](content/design/composability.md#modal-parameters)
+        * [The Override Pattern](content/design/composability.md#the-override-pattern)
 
     * Productivity
         * Convenience vs. Productivity
@@ -39,10 +40,10 @@ By Christopher W. Johnson
         * Dynamic vs. Static
         * Code Reuse
 
-    * Abstracting Patterns
-        * Infinite Dimensions of Patterns
+    * [Abstracting Patterns](content/design/abstraction.md)
+        * [Infinite Dimensions of Patterns](content/design/abstraction.md#infinite-dimensions-of-patterns)
+        * [Interfaces](content/design/abstraction.md#interfaces)
         * Inheritance
-        * Interfaces
         * Encapsulation
         * MVC vs. Components
         * State and Immutability
@@ -68,14 +69,14 @@ By Christopher W. Johnson
         * Ownership and Responsibility
         * Object Oriented Programming
 
-    * Long-lived Projects
+    * [Project Longevity](content/development/project-longevity.md)
         * Commitment
         * Containing Experiments
         * Using the Classics
         * Avoiding Monoliths
         * Dependencies are Expensive Revisited
         * Runtime Environment vs. Development Environment
-        * Performance
+        * [Performance](content/development/project-longevity.md)
 
     * Legacy
         * Backwards Compatibility
@@ -109,4 +110,4 @@ By Christopher W. Johnson
         * Automatic Tests
 
 
-Copyright 2017 By Christopher W. Johnson
+Copyright 2018 By Christopher W. Johnson

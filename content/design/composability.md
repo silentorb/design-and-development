@@ -14,9 +14,9 @@ While organizing the components of a system in such a manner does not reduce the
 
 ## Dependencies are Expensive
 
-Dependencies are a two-edged sword. On one hand, everything except God Himself is dependent on something. Dependencies are essential.  But they are also expensive.
+Dependencies are a two-edged sword. On one hand, everything except God is dependent on something. Dependencies are essential.  But they are also expensive.
 
-Dependencies add requirements to any component that depends on them. At minimum, dependencies and the requirement that they must be available. The component will not function as well or at all without its dependencies. Beyond that, dependencies can add additional requirements in the form of constraints. Constraints on how and where the component can be used. Some dependencies are incompatible with each other and force mutually exclusive selection.
+Dependencies add requirements to any component that depends on them. At minimum, dependencies add the requirement that they must be available. The component will not function as well or at all without its dependencies. Beyond that, dependencies can add additional requirements in the form of constraints. Constraints on how and where the component can be used. Some dependencies are incompatible with each other and force mutually exclusive selection.
 
 Beyond the added constraints, dependencies can make a component harder to manage and reason about because each added dependency increases the complexity of that component.
 
@@ -122,7 +122,7 @@ So why are plugin systems used?
 
 The alternative to plugin systems (dependencies driving dependents) is only practical with software that is designed to be consumed by other software through an API. When creating end-user software, a plugin system is one of the the best options available for enabling a limited degree of extensibility.
 
-Sometimes developers get accustomed to using plugin systems where plugins are actually the only good option and then carry over that plugin pattern to areas where better patterns exist.
+Sometimes developers get accustomed to using plugin systems where plugins are actually the only good option and then carry that pattern to areas where better patterns exist.
 
 #### 2. Convenience
 
@@ -202,4 +202,4 @@ The second version is better.  Why?  Because it is more composable, has better s
 ## The Override Pattern
 
 
-Copyright 2017 By Christopher W. Johnson
+Copyright 2018 By Christopher W. Johnson
