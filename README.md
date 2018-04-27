@@ -35,7 +35,7 @@ By Christopher W. Johnson
     * Productivity
         * Convenience vs. Productivity
         * Investment
-        * Convolution and Simplexity
+        * Simplexity
         * Frameworks vs. Libraries
         * Dynamic vs. Static
         * Code Reuse
