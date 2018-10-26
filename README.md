@@ -39,6 +39,9 @@ By Christopher W. Johnson
         * Frameworks vs. Libraries
         * Dynamic vs. Static
         * Code Reuse
+    
+    * State and Data Flow
+        * [Immutability](content/design/state-and-data-flow.md#immutability)
 
     * [Abstracting Patterns](content/design/abstraction.md)
         * [Infinite Dimensions of Patterns](content/design/abstraction.md#infinite-dimensions-of-patterns)
@@ -46,7 +49,6 @@ By Christopher W. Johnson
         * Inheritance
         * Encapsulation
         * MVC vs. Components
-        * State and Immutability
         * Imperative vs. Declarative
         * Lazy Abstractions / Reflection
         * Normalization
@@ -99,6 +101,11 @@ By Christopher W. Johnson
         * Step-based debugging
         * Record-based debugging
         * Test-based debugging
+    
+    * Optimization
+        * Profiling
+        * The Rule of 3 Halves
+        * Bottlenecks and Hot spots
 
     * Testing
         * Varying Requirements for Reliability

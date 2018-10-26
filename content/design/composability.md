@@ -6,7 +6,7 @@ Complexity is just a bunch of simple.  No matter how large and complex a problem
 
 However, the divisions cannot be arbitrary. Like chopping wood or carving a turkey, proper division of a complex problem requires dividing along existing lines. In a way, such division is simply accentuating existing lines.
 
-A commonly used method of division is known as Separation of Concerns (SOC).  What is a concern? Within the context of software development, the definition of "concern" is fuzzy. Sometimes it is used to refer to a particular purpose, role, or domain. Dividing a system along such lines can be useful, but can also lead to equally fuzzy boundaries.
+A commonly used method of division is known as Separation of Concerns (SOC).  What is a concern? Within the context of software development, the definition of "concern" is vague. Sometimes it is used to refer to a particular purpose, role, or domain. Dividing a system along such lines can be useful, but can also lead to equally vague boundaries.
 
 When attempting to understand and apply the concept of Separation of Concerns, it is more useful to define concerns and their boundaries through dependencies. When two components of a system have radically different dependencies or radically different dependents, that lends weight to keeping those parts separate. When two components of a system share similar dependencies and dependents, that lends weight to packaging those parts together.
 
@@ -24,11 +24,13 @@ Different dependencies have different costs.  In terms of weight, one heavy depe
 
 ##  Monoliths
 
-Breaking separation of concerns leads to monoliths.  Monoliths are bad.
+Lack of separation of concerns leads to monoliths.  Monoliths are bad.
+
+Inversely, dividing the same concern into two parts can result in convolution.
 
 ##  Hubs
 
-Sometimes a system is designed in such a way that it is divided into many components with very clean separation of concern, and then all of those components are tied to a single "master" or "god" component.  Master components are like dieting during the weekdays and then Ice Cream binging over the weekend.
+Sometimes a system is designed in such a way that it is divided into many components with very clean separation of concern, and then all of those components are tied to a single "master" or "god" component.  Master components are like dieting during the weekdays and then ice cream binging over the weekend.
 
 Master components usually have two problems:
 
@@ -140,13 +142,34 @@ Plugin systems are the lousy employee that becomes your boss because he's the CE
 
 ## Modal Parameters
 
-There are two types of parameters: arbitrary and modal.  Arbitrary parameters are
+A parameter falls within a spectrum of aribitrary to modal.  A parameter is arbitrary when a function will follow the same code path regardless of the value of the parameter.  A parameter is modal when a function will branch into different code paths depending on the value of the parameter.  The more significant the branching, the more the parameter becomes a modal parameter.
+
+### Example: A function with an arbitrary parameter
+
+```
+foo(value) {
+    return value + 1
+}
+```
+
+Note that under the hood the underlying assembly and CPU operations could involve significant branching on similar looking addition operations.
+ 
+### Example: A function with an arbitrary and a modal parameter 
+
+```
+foo(value, mode) {
+    if (mode == 'AlwaysZero')
+        return 0
+    else
+        return value + 1
+}
+```
 
 Consider the following pseudo code.
 
 ```
 foo(arg, toggle) {
-    if (which == 1) {
+    if (toggle == 1) {
         // Do A
     }
     else {
