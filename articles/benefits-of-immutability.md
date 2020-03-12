@@ -1,4 +1,3 @@
-# State and Data Flow
 
 ## Benefits of Immutability
 
