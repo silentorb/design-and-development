@@ -1,7 +1,7 @@
 
 ## Modal Parameters
 
-A parameter falls within a spectrum of aribitrary to modal.  A parameter is arbitrary when a function will follow the same code path regardless of the value of the parameter.  A parameter is modal when a function will branch into different code paths depending on the value of the parameter.  The more significant the branching, the more the parameter becomes a modal parameter.
+A parameter falls within a spectrum of arbitrary to modal.  A parameter is arbitrary when a function will follow the same code path regardless of the value of the parameter.  A parameter is modal when a function will branch into different code paths depending on the value of the parameter.  The more significant the branching, the more the parameter becomes a modal parameter.
 
 ### Example: A function with an arbitrary parameter
 
@@ -12,7 +12,7 @@ foo(value) {
 ```
 
 Note that under the hood the underlying assembly and CPU operations could involve significant branching on similar looking addition operations.
- 
+
 ### Example: A function with an arbitrary and a modal parameter 
 
 ```
@@ -79,4 +79,4 @@ more_stuff(arg) {
 }
 ```
 
-The second version is better.  Why?  Because it is more composable, has better separation of concerns, and can scale infinitely.
+The second version is better.  Why?  Because it is more [composable](composition.md), has better [separation of concerns](separation-of-concerns.md), and can scale infinitely.

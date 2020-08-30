@@ -1,6 +1,8 @@
 
 ## The Doctor's Dilemma
 
+> There's more than one way to skin a cat
+
 ### Background
 
 When there is damage inside a person's body, all health practitioners face the same challenge: the damaged area is surrounded by one or more layers that prevent direct interaction with the damaged area.  How does one get at the damaged area?
