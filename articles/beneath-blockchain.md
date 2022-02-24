@@ -48,11 +48,11 @@ By Christopher W. Johnson
   * First and second gen blockchains have relatively narrow transaction bandwidth
 * Third gen blockchains found ways to dramatically increase transaction volume
 * But that wasn't the root problem, the root problem is that these blockchains expected all of their nodes and apps to be Google
-* Most web apps are composed of roughly 90% reading, 10% writing
+* Most web apps are composed of roughly 90% reading and 10% writing
 * A useful blockchain app can't just write data, it needs to read data and identify connections within that data
 * Third gen blockchains did not solve the reading problem, but instead significantly increased the amount of data that needed to be stored and parsed
   * Instead of removing the burden of carrying the world from the shoulders of nodes and apps, they increased the size of the world
-  * Part of this misdiagnosis of the problem was many third gen blockchains were working in a world of theory and investor money instead of meeting ordinary people where they were at
+  * Part of this misdiagnosis was due to many third gen blockchains working in a world of theory and market bubble investors instead of solving immediate problems for ordinary people
 * The focus on throughput instead of foundational scalability resulted in relatively little adoption of third gen blockchains
   * Instead, most blockchain projects fell back to the Ethereum stack
     * This fallback was assisted by the bandaid measure of putting more weight on multiple Ethereum networks
