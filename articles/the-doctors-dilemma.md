@@ -13,7 +13,7 @@ Some options are:
 * Apply surface forces
 * Cut them open
 
-Systems need to divided into layers.  It is unavoidable.  Even if a system is not divided into layers, it is probably built on top of other layers and other layers may be built on top of it.
+Systems need to be divided into layers.  It is unavoidable.  Even if a system is not divided into layers, it is probably built on top of other layers and other layers may be built on top of it.
 
 Layers are a two-edged sword.  They compartmentalize, but also obscure.
 
