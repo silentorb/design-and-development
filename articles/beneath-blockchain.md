@@ -91,9 +91,9 @@ By Christopher W. Johnson
 ### More Prevalent Use of Hashes as Primary Keys
 
 * Some of the benefits of this include:
-  * Integral unity between the id of a record and its contents
+  * Integral unity between the ID of a record and its contents
   * Increased determinism
-    * For example, a client can submit new records and know the primary key of that data without relying on a centralized server to assign arbitrary keys to that data
+    * For example, a client can submit new records and know the primary key of that data without relying on a centralized server to assign arbitrary IDs to that data
     * This enables more idempotent processes
 
 ### Consensus
