@@ -20,6 +20,7 @@ By Christopher W. Johnson
 * Trust can be more liquified than current blockchain technologies allow
   * Blockchain trust management would be more advanced at this point except so many blockchain developers are focused on eradicating trust instead of working with it
 * Incomplete liquidity of trust is one of the primary causes of current blockchain scaling problems
+* Blockchains need better protocols for managing trust before they can truly scale
 
 ## Scaling
 
@@ -70,7 +71,7 @@ By Christopher W. Johnson
 * There has been a tendency with the initial waves of blockchain pioneers to be excited about blockchains at a high level, without realizing that for a blockchain, the sum is not more valuable than its parts—it is valuable *because* of its parts
   * The invidivual parts of a blockchain each have intrinsic value and utility
 * It would be practical for more blockchain projects to take a step back and examine how blockchain principles could be injected into traditional, centralized solutions
-  * Currently there are relatively few software libraries to assist in such an endeavor
+  * Currently there are relatively few software libraries to assist such efforts
 
 ## Useful Blockchain Technologies
 
