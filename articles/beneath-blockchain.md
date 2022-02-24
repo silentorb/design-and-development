@@ -5,7 +5,7 @@ By Christopher W. Johnson
 ## Terminology
 
 * The term "Blockchain" is sometimes referred to as synonymous with a decentralized blockchain
-* While blockchains are often decentralized, a chain of blocks is also useful in [centralized solutions](#blockchains-in-traditional-databases)
+* While blockchains are often decentralized, a chain of blocks is also useful in centralized solutions
   * Ironically, when blockchain developers create centralized solutions that interface with blockchain nodes, the centralized solutions are rarely implemented as blockchains
 
 ## Trust
