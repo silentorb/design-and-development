@@ -18,9 +18,10 @@ By Christopher W. Johnson
 * Increased flexibility enables more optimal configurations of trust
 * What people misidentify as "trustless" is actually minimized trust
 * Trust can be more liquified than current blockchain technologies allow
-  * Blockchain trust management would be more advanced at this point except so many blockchain developers are focused on eradicating trust instead of working with it
+* Blockchain trust management would be more advanced at this point except so many blockchain developers are focused on eradicating trust instead of working with it
 * Incomplete liquidity of trust is one of the primary causes of current blockchain scaling problems
 * Blockchains need better protocols for managing trust before they can truly scale
+* Optimistic Rollups are a calculated increase in trust, with the resulting benefit of making Layer 2 scaling more practical
 
 ## Scaling
 
@@ -53,10 +54,12 @@ By Christopher W. Johnson
 * A useful blockchain app can't just write data, it needs to read data and identify connections within that data
 * Third gen blockchains did not solve the reading problem, but instead significantly increased the amount of data that needed to be stored and parsed
   * Instead of removing the burden of carrying the world from the shoulders of nodes and apps, they increased the size of the world
-  * Part of this misdiagnosis was due to many third gen blockchains working in a world of theory and market bubble investors instead of solving immediate problems for ordinary people
+  * Part of this misdiagnosis was due to many third gen blockchains working in a world of theory and market bubble investment instead of solving immediate problems for ordinary people
 * The focus on throughput instead of foundational scalability resulted in relatively little adoption of third gen blockchains
-  * Instead, most blockchain projects fell back to the Ethereum stack
-    * This fallback was assisted by the bandaid measure of putting more weight on multiple Ethereum networks
+* Instead, most blockchain projects fell back to the Ethereum stack
+  * This fallback was assisted by the bandaid measure of putting more weight on multiple Ethereum networks
+    * When a new Ethereum network is launched, it has relatively little history, but over time and increased daily volume its history grows until it has the same data scaling problems
+      * This issue is sometimes accelerated with L2 networks because L2 apps are intended to be more liberal with the volume of transactions and contract data
 
 ## Meeting Customer Needs
 
@@ -68,6 +71,8 @@ By Christopher W. Johnson
 * Independent of a fully decentralized solution, Bitcoin and Ethereum are comprised of many useful paradigms and mechanisms that can be incorporated into centralized apps
 * Most blockchain app developers write centralized code that incorporate few blockchain paradigms and mechanisms
   * Instead, blockchain apps tend to interface with decentralized nodes and put all of the decentralization weight on them
+  * Even smart contracts hide many of the powerful blockchain paradigms from smart contract programmers
+    * For example, under the hood EVM contract data storage is immutable but EVM programmers can write code as though the data is mutable
 * There has been a tendency with the initial waves of blockchain pioneers to be excited about blockchains at a high level, without realizing that for a blockchain, the sum is not more valuable than its parts—it is valuable *because* of its parts
   * The invidivual parts of a blockchain each have intrinsic value and utility
 * It would be practical for more blockchain projects to take a step back and examine how blockchain principles could be injected into traditional, centralized solutions
