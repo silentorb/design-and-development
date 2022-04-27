@@ -17,15 +17,15 @@
 * A traditional order book doesn't rely on lookups but needs to iterate over many if not all of the orders in the list
   * This volume of read operations gets expensive fast
 * Potentially a highly optimized system of indexing ranges of limit orders could be implemented to streamline the processing
-  * However such a system would be extremely complex and would still leave the following problem
+  * However such a system would be extremely complex and would still leave the next problem:
 * Changes in limit order book state can cause recursive chain reactions where the resolution of one order results in the resolution of other orders
   * This results in undeterministic behavior, something EVM smart contracts do not handle well
 
 ## Centralized Exchanges
 
-* Contrary to popular belief, centralizing crypto exchanges was not the first choice solution
+* Contrary to popular belief, centralization was not the first choice for crypto exhanges
 * A decentralized order book was simply not practical
-* Thus, all initial exchanges were centralized
+* Due to technical limitations, all initial exchanges were centralized
 
 ## The Introduction of AMMs
 
